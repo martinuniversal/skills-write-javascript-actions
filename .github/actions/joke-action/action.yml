@@ -4,8 +4,7 @@ description: "use an external API to retrieve and display a joke"
 
 outputs:
   joke-output:
-    description: The resulting joke from the icanhazdadjokes API
-
-    runs:
+    description: The resulting joke from the icanhazdadjokes AP
+runs:
   using: "node16"
   main: "main.js"
