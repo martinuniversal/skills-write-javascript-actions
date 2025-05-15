@@ -3,5 +3,6 @@ name: "my joke action"
 description: "use an external API to retrieve and display a joke"
 
 runs:
- using: "node20"
-  main: "main.js"
+  using: "node20"
+  steps:
+     main: "main.js"
